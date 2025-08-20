@@ -1,24 +1,238 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión K3</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión K3 Kínder 1</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión El Secreto de los Súper Aprendices</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Describir el proceso de aprendizaje humano (práctica, error, mejora).</li>
+<li>Establecer una analogía entre el aprendizaje humano y el de las máquinas.</li>
+<li>Introducir la idea de "enseñar" a través de ejemplos.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Demostración de la mejora en la habilidad de dibujo a través de la práctica y la retroalimentación.</li>
+<li>Participación activa y correcta en los roles de "maestro" y "alumno".</li>
+<li>Explicación sencilla de cómo la práctica nos ayuda a mejorar, conectándolo con "ver muchos ejemplos".</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Hojas de papel y lápices/crayones.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Despertando Nuestras Mentes Curiosas! ⏰ 5 min</h2>
+<p>Hora de activar nuestro cerebrito y recordar cómo aprendemos.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Recordando Cómo Aprendemos! ⏰ 3 min</h3>
+<p>Inicia la sesión haciendo preguntas que inviten a la reflexión sobre el aprendizaje personal. Guía la conversación para que los niños recuerden cómo la práctica y la repetición les ayudaron a mejorar en algo que les costó al principio.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, mis pequeños exploradores del conocimiento! ¡Qué emoción tenerlos aquí listos para una nueva misión! Hoy vamos a activar nuestros cerebritos y recordar algo súper importante: ¡cómo aprendemos cosas nuevas! (Proyectar Diapositiva 1) Levanten la mano los que ya saben escribir su nombre. ¡Guau, qué genios! ¿Recuerdan la primera vez que intentaron escribirlo? ¿Les salió perfecto a la primera? ¡Claro que no! ¿Y qué tuvieron que hacer para que les saliera cada vez mejor? ¡Cuéntenme, cuéntenme!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡El Poder de la Práctica! ⏰ 2 min</h3>
+<p>Refuerza la idea de que la práctica y el "volver a intentar" son claves para mejorar. Conecta con otros ejemplos de la vida diaria de los niños.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Exacto! Tuvieron que practicar, practicar y practicar. ¡Felicidades! Es como cuando aprendieron a andar en bicicleta, a saltar la cuerda o a dibujar una carita feliz. Al principio no es perfecto, pero si lo intentamos una y otra vez, ¡nos volvemos unos expertos! (Proyectar Diapositiva 2) ¡La práctica es mágica! ¿Verdad? Hoy vamos a jugar a descubrir más de esa magia.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: Descubriendo el Secreto de las Máquinas Inteligentes ⏰ 10 min</h2>
+<p>Vamos a entender cómo nuestras amigas las máquinas también aprenden, ¡a su manera!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¿Cómo Aprenden las Máquinas? ⏰ 5 min</h3>
+<p>Explica de forma sencilla la analogía del aprendizaje de máquinas con ejemplos que los niños puedan entender, como robots, tablets o juguetes interactivos.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Súper bien! Justo como ustedes dicen, la práctica es mágica, ¿verdad? Y saben qué, nuestras amigas las máquinas, como los robots o las tablets con las que a veces jugamos, ¡también aprenden! (Proyectar Diapositiva 3) Pero como no van a la escuela como nosotros, ¡ellas aprenden de una forma muy especial! Imaginen que es como si vieran muchísimos, muchísimos ejemplos de algo. Si una máquina quiere aprender a reconocer un gatito, ¡le muestran miles de fotos de gatitos! Y si quiere aprender una canción, ¡la escucha muchas, muchas veces! Es como si practicaran súper rápido viendo un montón de ejemplos.</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Nos Convertimos en Maestros de Máquinas! ⏰ 5 min</h3>
+<p>Introduce la actividad principal donde los niños se pondrán en el rol de "maestros" para enseñar a otros, simulando cómo las "máquinas" aprenden de "ejemplos" y "correcciones".</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hoy jugaremos a ser los maestros de las máquinas! (Proyectar Diapositiva 4) ¡Sí! Cada uno de ustedes será un maestro y le enseñará algo a un amigo. Y su amigo será como una "máquina" que aprenderá viendo sus ejemplos y con sus consejos. Así como nosotros mejoramos con la práctica y un maestro nos corrige, ¡las máquinas mejoran viendo muchísimos ejemplos! ¿Están listos para descubrir cómo? ¡Manos a la obra!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Manos a la Obra: Maestros del Dibujo! ⏰ 20 min</h2>
+<p>Nos convertiremos en artistas y maestros para ayudar a nuestros amigos a mejorar sus creaciones.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Preparando Nuestro Taller de Arte! ⏰ 5 min</h3>
+<p>Organiza a los niños en parejas. Entrega a cada pareja hojas de papel y lápices/crayones. Si tienes los birretes, reparte uno por pareja para el 'maestro' inicial. Explica claramente los roles y lo que cada uno hará.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente, equipo! ¡Ahora sí, la misión más divertida comienza! ¡Prepárense, futuros maestros del dibujo! (Proyectar Diapositiva 5) ¡Es momento de ponernos nuestros birretes de 'Maestro de Arte'!" (Mientras reparte los birretes o indica que los usen). "¡Atención, atención! ¡Silencio en el aula de arte, los maestros van a enseñar! ¡Vamos a formar parejas para esta súper actividad! Uno de ustedes será el 'maestro' y el otro será el 'alumno'. El 'maestro' será el que sabe y enseña, y el 'alumno' será el que aprende y practica. ¡Aquí tienen sus materiales!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡El Reto del Dibujo y los Primeros Consejos! ⏰ 10 min</h3>
+<p>Guía a las parejas en la primera ronda de la actividad. El maestro dibuja una forma simple y el alumno intenta copiarla. Anima a los maestros a dar retroalimentación constructiva y a los alumnos a intentarlo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Ahora sí, mis pequeños artistas! (Proyectar Diapositiva 6) El 'maestro' va a dibujar una forma simple en su hoja. Puede ser un espiral, un círculo loco, una casita sencilla, ¡lo que quiera! Una vez que el 'maestro' termine su dibujo, se lo va a enseñar a su 'alumno'. Y el 'alumno' va a intentar copiarlo en su propia hoja. ¡No se preocupen si no sale perfecto la primera vez, es parte del juego! Maestros, cuando su alumno termine, ¡denle consejos con mucho amor! Por ejemplo: "Quizás un poquito más redondo por aquí", "un poquito más de vueltas por allá". ¡Recuerden que los buenos maestros son amables y pacientes! ¡Vamos a intentarlo!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: ¡Mejorando con la Práctica y el Cambio de Rol! ⏰ 5 min</h3>
+<p>Indica a los niños que repitan el proceso 2-3 veces, fomentando la mejora con cada intento. Luego, haz que cambien de roles para que todos experimenten ser "maestro" y "alumno". Observa cómo se dan la retroalimentación y la mejora.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Estoy viendo unos trabajos espectaculares! ¡Ahora, alumnos, van a intentar dibujar otra vez, pero esta vez usando los consejos de su maestro! ¡A ver si nos sale aún mejor! (Proyectar Diapositiva 7) ¡Recuerden que la práctica hace al maestro! Y ahora, ¡es tiempo de cambiar de roles! El que era 'alumno' ahora será el 'maestro' y el que era 'maestro' ahora será el 'alumno'. ¡Vamos a repetir la diversión! El nuevo 'maestro' dibuja, el nuevo 'alumno' copia, y se dan consejos. ¡Qué bien lo están haciendo!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: Cierre de Misión: ¡Súper Aprendices! ⏰ 5 min</h2>
+<p>Es momento de celebrar lo que descubrimos y conectar el aprendizaje de hoy con el mundo real.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Compartiendo Nuestras Obras y Descubrimientos ⏰ 3 min</h3>
+<p>Invita a algunas parejas a mostrar sus dibujos (el primero y el último) y a compartir su experiencia. Pregúntales qué notaron sobre la práctica y los consejos.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Guau, qué dibujos tan increíbles y qué maestros tan dedicados! ¡Misión cumplida, equipo de súper aprendices! (Proyectar Diapositiva 8) ¿Quién quiere mostrar sus dibujos? ¿Qué notaron entre el primer dibujo y el último? ¿Les salió mejor después de practicar y con los consejos de su maestro? ¿Y qué les pareció eso de que las máquinas aprenden viendo muchos ejemplos? ¡Qué talentosos!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Reflexión Final: ¡Todos Somos Aprendices! ⏰ 2 min</h3>
+<p>Resume los aprendizajes clave, reforzando la idea de que la práctica y los ejemplos nos ayudan a mejorar, tanto a humanos como a "máquinas". Despide a los niños con un mensaje positivo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Justo como nosotros con nuestros dibujos! (Proyectar Diapositiva 9) Recuerden, ya sea un dibujo, un nombre, o una máquina que aprende a reconocer un gatito, ¡la práctica y ver muchos ejemplos nos hacen cada día mejores! ¡Y ustedes son unos campeones de la práctica y de aprender a aprender! ¡Un aplauso enorme para todos ustedes, son unos genios del aprendizaje! ¡Nos vemos en la próxima aventura!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
